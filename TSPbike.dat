@@ -1,0 +1,26 @@
+set NODI := a b c d;
+
+param k := 5; 
+
+param c :=
+
+a 20
+b 20
+c 20
+d 20 ;
+
+param s :=
+
+a 22
+b 23
+c 17
+d 18 ;
+
+param t :=
+
+a b 4
+a c 12
+a d 1
+b c 2
+b d 6
+c d 9 ;
