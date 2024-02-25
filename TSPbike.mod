@@ -44,7 +44,7 @@ subject to flusso_12{(i, j) in ARCHI : i != j} :
 
 #------------------------------------------------------------------------
 
-subject to start : f[first(NODI)] = pc[first(NODI)];
+subject to start : f[first(NODI)] = if(pc[first(NODI)] > 0) then pc[first(NODI)] else 0;
 
 
 ### OBIETTIVO  
