@@ -1,9 +1,11 @@
 reset;
 option solver gurobi;
-model aaa.mod;
-data TSPbike.dat;
+model TSPbike.mod;
+data TSPbike2.dat;
 solve;
 display x;
 display y;
+display pc;
+display f;
 display t;
 reset;
